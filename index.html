@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>CSS - Cascading Style Sheet</title>
+    <style>
+        h3 {
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <h1>CSS - Cascading Style Sheet</h1>
+            <p>O CSS é um folha de estilo em cascata que segue o famoso ditado: os últimos seram os primeiros, ou seja, se tivermos mudanças de estilos com a mesma propriedade e diferentes valores fica o que estiver por último. Pórem, existem varidas formas de prioridades que escreveremos a seguir:</p>
+                <p>Existem três forma de aplicar o CSS:</p>
+                    <ul>
+                        <li>Inline: Na mesma linha da Tag.</li>
+                        <li>Internal: Com a tag Style dentro da tag Head.</li>
+                        <li>External: Com um arquivo externo .css - Precisa ser linkado com a folha.</li>
+                    </ul>
+        <h2 style=color:red; >Esta frase será estilizada com CSS Inline - Possui maior prioridade que as formas Internal e External.</h2>
+            <h3>Esta frase será estilizada com CSS Internal - Possui maior prioridade que a External.</h3>
+                <h4>Esta frase será estilizada com CSS External - Possui a menor prioridade de todas.</h4>
+    </main>
+</body>
+</html>
