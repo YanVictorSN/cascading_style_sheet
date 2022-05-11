@@ -19,10 +19,10 @@
         </nav>
     </header>
     <main>
-        <h1>CSS - Cascading Style Sheet</h1>
+        <h1 id="tituloprincipal">CSS - Cascading Style Sheet</h1>
             <p>O CSS é um folha de estilo em cascata que segue o famoso ditado: os últimos seram os primeiros, ou seja, se tivermos mudanças de estilos com a mesma propriedade e diferentes valores fica o que estiver por último. Pórem, existem varidas formas de prioridades que escreveremos a seguir:</p>
                 <p>Existem três forma de aplicar o CSS:</p>
-                    <ul>
+                    <ul class="estilizartagsli">
                         <li>Inline: Na mesma linha da Tag.</li>
                         <li>Internal: Com a tag Style dentro da tag Head.</li>
                         <li>External: Com um arquivo externo .css - Precisa ser linkado com a folha.</li>
@@ -31,5 +31,49 @@
             <h3>Esta frase será estilizada com CSS Internal - Possui maior prioridade que a External.</h3>
                 <h4>Esta frase será estilizada com CSS External - Possui a menor prioridade de todas.</h4>
     </main>
+    <section>
+        <h1>Seletores em CSS</h1>
+            <p>Os seletores em CSS servem para conseguirmos definir as regras de estilo para o seletor escolhido. Através dele selecionamos e estilizamos.É o link que fazemos entre o elemento HTML e a sua estilização com CSS.</p>
+        <h2>Existem diversos tipos de seletores em CSS:</h2>
+            <ul class="estilizartagsli">
+                <li>Class - Para selecionarmos usamos o . seguido de sua Class.</li>
+                <li>ID - Para selecionarmos usamor o # seguido de seu ID</li>
+                <li>Universais - Para selecionarmos usamos o *</li>
+                <li>Genéricos - Para selecionarmos usamos alguma referência genérica.</li>
+            </ul>
+    </section>
+    <section>
+        <h1>Pseudo-Classes em CSS</h1>
+            <p>São formas de relações entre seletores que possuem objetivos específicos.<br> 1 - Ajudam a diminuir o número de classes criando uma maior flexibilidade.<br> 2 - São usadas para definir ações.</p>
+                <ul>
+                    <li>:last-child - Todos os últimos filhos seram estilizados.</li>
+                    <li>:only-child - Todos os filhos seram estilizados</li>
+                    <li>:invalid - Todas as tags form/fildset/input que não forem satisfeitas em suas condições seram estilizadas para demarcar isso.</li>
+                    <li>:hover - Todas as vezes que passarmos o mouse serão aplicadas determinadas estilizações.</li>
+                    <li>:focus - Todas as vezes que determinada Tag for selecionada pela tecla TAB serão aplicadas determinadas estilizações.</li>
+                    <li>:visited - Indica se o link foi visitado. </li>
+                    <li>:active - Usado para selecionar e estilizar links ativos</li>              
+                </ul>
+    </section>
+    <section>
+        <h1>Pseudo-Elementos em CSS</h1>
+            <p>São formas de relações entre seletores que possuem objetivos específicos.<br>* A diferença comparado ao Pseudo-Elementos (Que tem o funcionamento semelhando a uma classe) é que ele funciona como uma parte a mais do código HTML.</p>
+                <ul>
+                    <li>::first-line - Todas as primeiras linha serão estilizadas.</li>
+                    <li>::first-letter - Todas as primeiras letras serão estilizadas.</li>
+                    <li>::before - Usado estilizar alguma coisa depois de outra.</li>
+                    <li>::after - Usado para estilizar alguma coisa antes de outra.</li>             
+                </ul>
+    </section>
+    <section>
+        <h1>Combinadores em CSS</h1>
+            <p>São formas de combinações entre os seletores que possuem objetivos específicos.</p>
+                <ul>
+                    <li>Descendente - Usa a lógica parental para estilizar tags específicas.</li>
+                    <li>Filho (>) - Todas os filhos serão alterados.</li>
+                    <li>Adjacente (+) - Somente o irmão mais próximo será alterado.</li>
+                    <li>General (~) - Seleciona todos os elementos que vem depois independente de suas relações parentais.</li>
+                </ul>
+    </section>
 </body>
 </html>
