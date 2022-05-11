@@ -1,3 +1,29 @@
+/* Seletor Universal */
+* {
+    padding: 5px;
+}
+/* Seletor por ID */
+#tituloprincipal {
+    color: rgb(218, 8, 8);
+}
+/* Seletor por Tag HTML */
 h4 {
     color:orange;
+}
+/* Seletor por Classe */
+.estilizartagsli {
+    color: rgb(161, 60, 182);
+    font-size: large;
+}
+/* Pseudo-Elementos */
+h1::first-letter {
+    font-size: 60px;
+}
+/* Combinadores Descendente*/
+section h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Pseudo-Classes */
+h1:hover {
+    font-size: 20px;
 }
