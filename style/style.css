@@ -62,5 +62,59 @@ h1:hover {
     border:4px groove rgb(85, 22, 38);
     overflow: auto;
 }
-
-
+/* Estilizando Fundo Caixas - Color + Border Radius */
+.backgroudstyle {
+    display: flex;
+    justify-content: space-between;
+}
+.boxsolid {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.boxsolidtransparent {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4, 4, 165, 0.75);
+    border-radius: 40px;
+}
+.boxgradient{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to left, rgb(33, 182, 150),rgb(0, 45, 87));
+    border-radius: 60px;
+}
+/* Estilizando Bordas */
+#borderstyle {
+    display: flex;
+    justify-content: space-between;
+}
+/* Style Groove */
+#boxgroove {
+    width: 200px;
+    height: 200px;
+    border: 6px groove ;
+    border-color: brown;
+}
+/* Style Ridge */
+#boxrigde {
+    width: 200px;
+    height: 200px;
+    border:6px ridge;
+    border-color: rgb(216, 0, 151);
+}
+/* Style Inset*/
+#boxinset {
+    width: 200px;
+    height: 200px;
+    border:6px inset;
+    border-color: rgb(221, 95, 22);
+}
+/* Style Outset */
+#boxoutset {
+    width: 200px;
+    height: 200px;
+    border:6px outset;
+    border-color: rgb(210, 247, 5);
+}
