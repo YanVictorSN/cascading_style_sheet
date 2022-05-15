@@ -118,3 +118,8 @@ h1:hover {
     border:6px outset;
     border-color: rgb(210, 247, 5);
 }
+/* Box-Shadow */
+#imgyan {
+    border-radius: 50%;
+    box-shadow: inset 8em 8em 8em 8em rgb(45, 22, 253) ;
+}
