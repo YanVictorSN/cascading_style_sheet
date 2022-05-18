@@ -1,0 +1,44 @@
+
+/* Página Style6 */
+@font-face {
+    font-family:"sourcersanspro";
+    src: url("/fonts/sourcesanspro-black-webfont.woff") format(woff),
+        url("/fonts/sourcesanspro-black-webfont.woff2") format(woff2);
+
+  }
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+p {
+    font-family: 'sourcersanspro', cursive;
+    font-weight: 200;
+}
+#link {
+    list-style-type:square;
+}
+#visited {
+    list-style-type:circle;
+}
+#focus{
+    list-style-type:decimal-leading-zero;
+}
+#active {
+    list-style-type: none;
+}
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+}
+a:focus {
+    color: rgb(94, 94, 94);
+}
+a:hover{
+    color: rgb(225, 0, 255);
+}
+a:active{
+    color: rgb(43, 255, 0);
+}
