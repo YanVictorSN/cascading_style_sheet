@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0
+}
+.colors {
+    display: flex;
+    padding: 3vw;
+}
+#hexadecimal {
+    width: 100px;
+    height: 100px;
+    background-color: #fd0234;
+    margin: 1vh;
+}
+#hexadecimaltransparent {
+    width: 100px;
+    height: 100px;
+    background-color: #f0023450;
+    margin: 1vh;
+}
+#rgb{
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+    background-color: rgb(35,250,15);
+}
+#rgba{
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+    background-color: rgb(35,250,15, 0.5);
+}
+#hsl {
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+    background-color: hsl(58,60%,25%);;
+}
+#hsla {
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+    background-color: hsla(58,60%,25%,0.8);
+}
+#predefinedcolor {
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+    background-color: cyan;
+}
+#actualcolor{
+    width: 100px;
+    height: 100px;
+    margin: 1vh;
+    background-color: black;
+    opacity: 0.6;
+}
