@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    width: 15vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxone {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+}
+.boxtwo {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(11, 138, 43);
+}
+.boxtree {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(165, 20, 233);
+}
